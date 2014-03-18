@@ -109,3 +109,9 @@ C:\Users\Stu\Desktop\ME Files\3\3-2\MIS122\SAD_Project\HISPayrollSystem\Predator
 C:\Users\Stu\Desktop\ME Files\3\3-2\MIS122\SAD_Project\HISPayrollSystem\PredatorUI2\obj\x86\Debug\PredatorUI2.csproj.ResolveComReference.cache
 C:\Users\Stu\Desktop\ME Files\3\3-2\MIS122\SAD_Project\HISPayrollSystem\PredatorUI2\obj\x86\Debug\PredatorUI2.exe
 C:\Users\Stu\Desktop\ME Files\3\3-2\MIS122\SAD_Project\HISPayrollSystem\PredatorUI2\obj\x86\Debug\PredatorUI2.pdb
+C:\Users\Stu\Desktop\ME Files\3\3-2\MIS122\SAD_Project\his-payroll\PredatorUI2\bin\Debug\PredatorUI2.exe.config
+C:\Users\Stu\Desktop\ME Files\3\3-2\MIS122\SAD_Project\his-payroll\PredatorUI2\obj\x86\Debug\Interop.ADOX.dll
+C:\Users\Stu\Desktop\ME Files\3\3-2\MIS122\SAD_Project\his-payroll\PredatorUI2\obj\x86\Debug\Interop.MSComctlLib.dll
+C:\Users\Stu\Desktop\ME Files\3\3-2\MIS122\SAD_Project\his-payroll\PredatorUI2\obj\x86\Debug\PredatorUI2.csproj.ResolveComReference.cache
+C:\Users\Stu\Desktop\ME Files\3\3-2\MIS122\SAD_Project\his-payroll\PredatorUI2\obj\x86\Debug\PredatorUI2.exe
+C:\Users\Stu\Desktop\ME Files\3\3-2\MIS122\SAD_Project\his-payroll\PredatorUI2\obj\x86\Debug\PredatorUI2.pdb
