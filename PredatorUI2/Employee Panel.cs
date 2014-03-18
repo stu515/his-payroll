@@ -54,10 +54,17 @@ namespace PredatorUI2
             workerTypeCB.Items.Add("Office");
             workerTypeCB.Items.Add("Subcontractual");
 
-            categoryCB.Items.Add("Mason");
-            categoryCB.Items.Add("Carpenter");
-            categoryCB.Items.Add("Welder");
+            MySqlConnection conn = new MySqlConnection(LogIn.login);
+            conn.Open();
+            MySqlCommand cmd = conn.CreateCommand();
+            cmd.CommandText = "SELECT employee_cat FROM salary_rate";
+            MySqlDataReader reader = cmd.ExecuteReader();
 
+            while (reader.Read())
+            {
+                categoryCB.Items.Add(reader[0].ToString());
+            }
+            
         }
         public void loadDataGrid()
         {
@@ -330,7 +337,7 @@ namespace PredatorUI2
                 MessageBox.Show("Employee updated in employee_table");
             
             cmd = conn.CreateCommand();
-              
+              /**
                 if (workerTypeCB.Text == "Regular")
                 {
                     cmd.CommandText = "UPDATE worker_regular SET acct_number = @acct_number, cash_advance_balance = @cash_advance_balance WHERE employee_ID = @employee_ID";
@@ -354,7 +361,8 @@ namespace PredatorUI2
                 }
 
                 cmd.ExecuteNonQuery();
-                conn.Close();
+                conn.Close();*/
+
                 MessageBox.Show("Edit Successful");
                 loadDataGrid();
 }
